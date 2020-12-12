@@ -17,5 +17,5 @@ deploy:
  bucket_path: "docker"
  on:
   branch: master
-  access_key_id: "$MY_KEY"
-  secret_access_key: "$MY_OK"
+ access_key_id: $MY_KEY
+ secret_access_key: $MY_OK
